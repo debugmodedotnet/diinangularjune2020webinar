@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'live';
+  data = undefined; 
+  sortData(){
+    this.data.sort();
+  }
+
 }
